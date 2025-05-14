@@ -1,0 +1,35 @@
+/* about.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+}
+
+div {
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.button-Name {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.button-Name:hover {
+    background-color: #0056b3;
+}
