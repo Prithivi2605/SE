@@ -5,9 +5,9 @@ import image from '../assets/6.jpg'
 
 const SignIn = () => {
     const [login,setLogin] = useState(false)
-    const navigate = useNavigate();
     const [email,setEmail] = useState('')
     const [password,setPass] = useState('')
+    const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
